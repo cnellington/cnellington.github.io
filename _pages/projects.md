@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 description: And assorted knick knacks.
 nav: true
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
