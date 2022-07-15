@@ -1,72 +1,70 @@
----
----
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{lengerich_notmad_2021,
+	abbr = {NOTMAD},
+	selected = {true},
+	html = {https://arxiv.org/abs/2111.01104},
+	pdf = {notmad.pdf},
+	title = {{NOTMAD}: Estimating Bayesian Networks with Sample-Specific Structures and Parameters},
+	url = {http://arxiv.org/abs/2111.01104},
+	shorttitle = {{NOTMAD}},
+	abstract = {Context-specific Bayesian networks (i.e. directed acyclic graphs, {DAGs}) identify context-dependent relationships between variables, but the non-convexity induced by the acyclicity requirement makes it difficult to share information between context-specific estimators (e.g. with graph generator functions). For this reason, existing methods for inferring context-specific Bayesian networks have favored breaking datasets into subsamples, limiting statistical power and resolution, and preventing the use of multidimensional and latent contexts. To overcome this challenge, we propose {NOTEARS}-optimized Mixtures of Archetypal {DAGs} ({NOTMAD}). {NOTMAD} models context-specific Bayesian networks as the output of a function which learns to mix archetypal networks according to sample context. The archetypal networks are estimated jointly with the context-specific networks and do not require any prior knowledge. We encode the acyclicity constraint as a smooth regularization loss which is back-propagated to the mixing function; in this way, {NOTMAD} shares information between context-specific acyclic graphs, enabling the estimation of Bayesian network structures and parameters at even single-sample resolution. We demonstrate the utility of {NOTMAD} and sample-specific network inference through analysis and experiments, including patient-specific gene expression networks which correspond to morphological variation in cancer.},
+	journaltitle = {{arXiv}:2111.01104 [cs, stat]},
+	author = {Lengerich, Ben and Ellington, Caleb and Aragam, Bryon and Xing, Eric P. and Kellis, Manolis},
+	urldate = {2022-05-03},
+	date = {2021-11-01},
+	eprinttype = {arxiv},
+	eprint = {2111.01104},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Statistics - Machine Learning, Temp, notion},
+	file = {arXiv Fulltext PDF:/Users/calebellington/Zotero/storage/FMLSGGMW/Lengerich et al. - 2021 - NOTMAD Estimating Bayesian Networks with Sample-S.pdf:application/pdf;arXiv.org Snapshot:/Users/calebellington/Zotero/storage/C7BCCHIU/2111.html:text/html},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{chen_multi-task_2021,
+	abbr = {MultiDAG},
+	title = {Multi-task Learning of Order-Consistent Causal Graphs},
+	volume = {34},
+	url = {https://proceedings.neurips.cc/paper/2021/hash/5c3a3b139a11689e0bc55abd95e20e39-Abstract.html},
+	abstract = {We consider the problem of discovering K related Gaussian directed acyclic graphs ({DAGs}), where the involved graph structures share a consistent causal order and sparse unions of supports. Under the multi-task learning setting, we propose a l1/l2-regularized maximum likelihood estimator ({MLE}) for learning K linear structural equation models. We theoretically show that the joint estimator, by leveraging data across related tasks, can achieve a better sample complexity for recovering the causal order (or topological order) than separate estimations. Moreover, the joint estimator is able to recover non-identifiable {DAGs}, by estimating them together with some identifiable {DAGs}.  Lastly, our analysis also shows the consistency of union support recovery of the structures. To allow practical implementation, we design a continuous optimization problem whose optimizer is the same as the joint estimator and can be approximated efficiently by an iterative algorithm. We validate the theoretical analysis and the effectiveness of the joint estimator in experiments.},
+	pages = {11083--11095},
+	booktitle = {Advances in Neural Information Processing Systems},
+	publisher = {Curran Associates, Inc.},
+	author = {Chen, Xinshi and Sun, Haoran and Ellington, Caleb and Xing, Eric and Song, Le},
+	urldate = {2022-05-03},
+	date = {2021},
+	keywords = {Computer Science - Machine Learning, notion, Statistics - Machine Learning, Temp},
+	file = {arXiv Fulltext PDF:/Users/calebellington/Zotero/storage/57X96YDF/Chen et al. - 2021 - Multi-task Learning of Order-Consistent Causal Gra.pdf:application/pdf;arXiv.org Snapshot:/Users/calebellington/Zotero/storage/UB7ITXRD/2111.html:text/html;Full Text PDF:/Users/calebellington/Zotero/storage/2H8RZIXQ/Chen et al. - 2021 - Multi-task Learning of Order-Consistent Causal Gra.pdf:application/pdf;Snapshot:/Users/calebellington/Zotero/storage/EWG7UKCN/forum.html:text/html},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{lengerich_automated_2022,
+	abbr = {HTEs},
+	title = {Automated Interpretable Discovery of Heterogeneous Treatment Effectiveness: A {COVID}-19 Case Study},
+	issn = {1532-0464},
+	url = {https://www.sciencedirect.com/science/article/pii/S1532046422001022},
+	doi = {10.1016/j.jbi.2022.104086},
+	abstract = {Testing multiple treatments for heterogeneous (varying) effectiveness with
+respect to many underlying risk factors requires many pairwise tests; we
+would like to instead automatically discover and visualize patient
+archetypes and predictors of treatment effectiveness using multitask
+machine learning. In this paper, we present a method to estimate these
+heterogeneous treatment effects with an interpretable hierarchical
+framework that uses additive models to visualize expected treatment
+benefits as a function of patient factors (identifying personalized
+treatment benefits) and concurrent treatments (identifying combinatorial
+treatment benefits). This method achieves state-of-the-art predictive
+power for {COVID}-19 in-hospital mortality and interpretable identification
+of heterogeneous treatment benefits. We first validate this method on the
+large public {MIMIC}-{IV} dataset of {ICU} patients to test recovery of
+heterogeneous treatment effects. Next we apply this method to a
+proprietary dataset of over 3000 patients hospitalized for {COVID}-19, and
+find evidence of heterogeneous treatment effectiveness predicted largely
+by indicators of inflammation and thrombosis risk: patients with few
+indicators of thrombosis risk benefit most from treatments against
+inflammation, while patients with few indicators of inflammation risk
+benefit most from treatments against thrombosis. This approach provides an
+automated methodology to discover heterogeneous and individualized
+effectiveness of treatments.},
+	pages = {104086},
+	journaltitle = {J. Biomed. Inform.},
+	author = {Lengerich, Benjamin J and Nunnally, Mark E and Aphinyanaphongs, Yin and Ellington, Caleb and Caruana, Rich},
+	date = {2022-04-30},
+	keywords = {{COVID}-19, Heterogeneous Treatment Effects, Interpretable Machine Learning, Personalized Medicine, notion},
 }
