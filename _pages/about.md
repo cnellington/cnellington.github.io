@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Check out our demos on [contextualized.ml](http://contextualized.ml), a statistical machine learning toolbox for estimating powerful biological models at per-patient or per-cell resolution, enabling truly personalized modeling for healthcare and precision diagnostics.
+Check out my research on [contextualized.ml](http://contextualized.ml), a statistical machine learning toolbox for estimating powerful biological models at per-patient or per-cell resolution, enabling truly personalized modeling for healthcare and precision diagnostics.
 
 My research interests span meta-learning, multi-task learning, graphical models, and biological modeling.
 I primarily work on adaptive and sample-efficient machine learning methods that respond to new challenges by using knowledge gathered in different environments.
