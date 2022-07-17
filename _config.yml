@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Caleb
 middle_name: N.
 last_name: Ellington
-email: dummyemail@mail.com
+email: dummyemail@email.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Howdy! Check out my work on personalized models and context-aware meta-learning.
 footer_text: >

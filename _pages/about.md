@@ -25,3 +25,4 @@ I'm particularly interested in using these tools to study heterogeneous diseases
 Meta-learning helps us understand how contexts like genetics and environmental factors create patient-specific disease behaviors and pathologies.
 
 I also enjoy rock climbing, guitar, learning languages, my cats Mimi and Goma, and my rats Boogie and Disco.
+I've lived in Austin TX, Seattle WA, and Pittsburgh PA and I call them all home.
