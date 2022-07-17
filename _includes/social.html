@@ -1,5 +1,6 @@
             {%- if site.email -%}
-            <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+            <span id="emailAlert" style="display:none; font-size:.305em">Copied!</span>
+            <a title="email"><i class="fas fa-envelope" id="email"></i></a>
             {% endif %}
             {%- if site.orcid_id -%}
             <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
@@ -55,3 +56,36 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl | prepend: site.url }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+            <br>
+
+            <script>
+            var link = document.getElementById('email');
+            link.onclick = copyToClipboard;
+
+            function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+
+            async function copyToClipboard() {
+              const el = document.createElement('textarea');
+              let name = 'cellin';
+              let at = 'gt@cs';
+              let domain = '.cmu.edu';
+              el.value = name + at + domain;
+              el.setAttribute('readonly', '');
+              el.style.position = 'absolute';
+              el.style.left = '-9999px';
+              document.body.appendChild(el);
+              el.select();
+              document.execCommand('copy');
+              document.body.removeChild(el);
+
+              icon = document.getElementById('email');
+              alt = document.getElementById('emailAlert');
+              icon.style.display = "none";
+              alt.style.display = "inline";
+              await sleep(1500);
+              alt.style.display = "none";
+              icon.style.display = "inline";
+            }
+            </script>
