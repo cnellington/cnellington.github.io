@@ -2,11 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+description: Teaching assistantships, lectures, and tutorials.
+nav: true
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Lectures and Tutorials:
+- [Chalk Talk](https://www.youtube.com/watch?v=mPtWvemach8): Recognizing, Representing, and Interpolating Human Emotions with Deep Learning
+- [Chalk Talk](https://www.youtube.com/watch?v=DUCImelo9UE): Deep Learning Applied to Contact Prediction in De Novo Protein Models
+- [Tutorial Series](https://www.youtube.com/watch?v=SO8J31k6QD4), [Tutorial Code](https://github.com/cnellington/bioscience-python-tutorials): Bioscience Python Tutorials 
 
-Organize your courses by years, topics, or universities, however you like!
+Current Mentees:
+- Juwayni Lucman, Artificial Intelligence MS Student, MBZUAI
+- Omar Alsuwaidi, Artificial Intelligence MS Student, MBZUAI
+- Wesley Lo, Mathematics BS Student, MIT
+- Ikechukwu Daniel Adebi, Mechanical Engineering MEng Student, MIT
+
+Teaching Assistantships:
+- Introduction to Machine Learning (PhD), CMU 10-701. 
+Instructors: Maria Balkan, Henry Chai.
+- Genetics and Epigenetics of the Brain, CMU 02-319.
+Instructor: Andreas Pfenning
+

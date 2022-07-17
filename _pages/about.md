@@ -20,7 +20,8 @@ social: true  # includes social icons at the bottom of the page
 Check out our demos on [contextualized.ml](http://contextualized.ml), a statistical machine learning toolbox for estimating powerful biological models at per-patient or per-cell resolution, enabling truly personalized modeling for healthcare and precision diagnostics.
 
 My research interests span meta-learning, multi-task learning, graphical models, and biological modeling.
-I primarily work on adaptive and sample-efficient machine learning methods that respond to new challenges by using knowledge gathered in many different environments.
-I'm particularly interested in using these tools to understand heterogeneous diseases, like cancer and COVID-19, where genetic and environmental factors change the mechanisms of disease in every case, making them difficult to observe in isolation.
+I primarily work on adaptive and sample-efficient machine learning methods that respond to new challenges by using knowledge gathered in different environments.
+I'm particularly interested in using these tools to study heterogeneous diseases, like cancer and COVID-19, where disease behavior and pathological mechanisms vary from patient to patient.
+Meta-learning helps us understand how contexts like genetics and environmental factors create patient-specific disease behaviors and pathologies.
 
-I also enjoy bouldering, music, languages, my cats Mimi and Goma, and my rats Boogie and Disco.
+I also enjoy rock climbing, guitar, learning languages, my cats Mimi and Goma, and my rats Boogie and Disco.

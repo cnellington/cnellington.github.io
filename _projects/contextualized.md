@@ -1,80 +1,49 @@
 ---
 layout: page
-title: Contextual-ized
-description: a machine learning toolbox for highly personalized modeling.
-img: assets/img/contextualized_logo.png
-importance: 2
+title: Contextualized
+description: a machine learning toolbox for inferring highly personalized statistical models.
+img: assets/img/contextualized_icon.png
+importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/contextualized_logo.png" title="contextualized logo" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+A statistical machine learning toolbox for estimating models, distributions, and functions with context-specific parameters.
 
+Take a look at the [main demo](https://github.com/cnellington/Contextualized/blob/main/demos/main_demo.ipynb) for a complete overview with code, or the [easy demo](https://github.com/cnellington/Contextualized/blob/main/demos/Easy-demo/easy_demo.ipynb) for a quickstart with sklearn-style wrappers!
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Implemented by [Caleb Ellington](https://calebellington.com/) (CMU) and [Ben Lengerich](http://web.mit.edu/~blengeri/www/index.shtml) (MIT).
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+## Install and Use Contextualized
 ```
-{% endraw %}
+pip install git+https://github.com/cnellington/Contextualized.git
+```
+
+## Contextualized Family
+Context-dependent modeling is a universal problem, but every domain presents unique challenges and opportunities. 
+Here are some layers that others have added on top of Contextualized.
+Feel free to add your own page(s) by sending a PR.
+
+<table>
+<tr>
+<td><a href="http://bio-contextualized.ml/">bio-contextualized.ml</a></td>
+<td>Contextualized and analytical tools for modeling medical and biological heterogeneity</td>
+</tr>
+</table>
+
+## Related Publications and Pre-prints
+Lengerich, Benjamin J., Mark E. Nunnally, Yin Aphinyanaphongs, Caleb Ellington, and Rich Caruana. 2022. “Automated Interpretable Discovery of Heterogeneous Treatment Effectiveness: A COVID-19 Case Study.” Journal of Biomedical Informatics, April, 104086. https://www.sciencedirect.com/science/article/pii/S1532046422001022
+
+Lengerich, Ben, Caleb Ellington, Bryon Aragam, Eric P. Xing, and Manolis Kellis. 2021. “NOTMAD: Estimating Bayesian Networks with Sample-Specific Structures and Parameters.” arXiv [stat.ML]. arXiv. http://arxiv.org/abs/2111.01104.
+
+Lengerich, Benjamin J., Maruan Al-Shedivat, Amir Alavi, Jennifer Williams, Sami Labbaki, and Eric P. Xing. 2020. “Discriminative Subtyping of Lung Cancers from Histopathology Images via Contextual Deep Learning.” medRxiv. https://www.medrxiv.org/content/10.1101/2020.06.25.20140053v1.abstract.
+
+Al-Shedivat, Maruan, Avinava Dubey, and Eric P. Xing. 2018. “Personalized Survival Prediction with Contextual Explanation Networks.” arXiv [cs.LG]. arXiv. http://arxiv.org/abs/1801.09810.
+
+Al-Shedivat, Maruan, Avinava Dubey, and Eric Xing. 2020. “Contextual Explanation Networks.” Journal of Machine Learning Research: JMLR 21 (194): 1–44.
+https://jmlr.org/papers/v21/18-856.html
