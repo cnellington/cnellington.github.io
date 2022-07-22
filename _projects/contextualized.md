@@ -15,7 +15,7 @@ category: work
 
 A statistical machine learning toolbox for estimating models, distributions, and functions with context-specific parameters.
 
-Take a look at the [main demo](https://github.com/cnellington/Contextualized/blob/main/demos/main_demo.ipynb) for a complete overview with code, or the [easy demo](https://github.com/cnellington/Contextualized/blob/main/demos/Easy-demo/easy_demo.ipynb) for a quickstart with sklearn-style wrappers!
+Check out our latest release [here](https://github.com/cnellington/contextualized). To learn more, take a look at the [main demo](https://github.com/cnellington/Contextualized/blob/main/demos/main_demo.ipynb) for a complete overview with code, or the [easy demo](https://github.com/cnellington/Contextualized/blob/main/demos/Easy-demo/easy_demo.ipynb) for a quickstart with sklearn-style wrappers!
 
 Implemented by [Caleb Ellington](https://calebellington.com/) (CMU) and [Ben Lengerich](http://web.mit.edu/~blengeri/www/index.shtml) (MIT).
 
@@ -31,7 +31,7 @@ Feel free to add your own page(s) by sending a PR.
 
 <table>
 <tr>
-<td><a href="http://bio-contextualized.ml/">bio-contextualized.ml</a></td>
+<td><a href="https://github.com/blengerich/BioContextualized">bio-contextualized.ml</a></td>
 <td>Contextualized and analytical tools for modeling medical and biological heterogeneity</td>
 </tr>
 </table>
