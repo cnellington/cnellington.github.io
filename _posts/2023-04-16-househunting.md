@@ -48,7 +48,8 @@ I'm revisiting this problem for two reasons:
 ### A Probabilistic Approach to Signing Your Lease
 To make the right choice with a very limited number of options, you need to figure out
 how the options you've seen compare to the rest of the market you haven't seen.
-The spirit is being able to commit after determining when you've seen an option that's "good enough" for you.
+The spirit is being able to commit after determining when you've seen an option that's "good enough" for you and 
+is likely to compare favorably against the rest of the unseen options.
 
 *Skip ahead to the table if you want to see the framework without the math*
 
@@ -86,7 +87,7 @@ affect another).
 
 
 Now we have a nice closed-form answer for how many options we should consider before committing!
-If we want to see an apartment of quality better $$\epsilon$$ percent of our housing market with probability  $$1 - \delta$$,
+If we need to see an apartment of better quality than $$\epsilon$$ percent of our housing market with probability  $$1 - \delta$$,
 we can use $$n = log_{\epsilon}(\delta)$$ to find the minimum apartments we should tour.
 This table has the values for $$n$$ rounded up to the nearest whole number.
 
