@@ -105,6 +105,9 @@ So if you want to be 90% sure you've toured an apartment better than 70% of the 
 If you want to be 95% sure you've toured an apartment better than 90% of the market, you should tour 45 apartments (not recommended).
 Anecdotally, I toured 11 apartments before putting a deposit down and I feel confident that I've seen at least 1-2 in the top 20% of my market.
 
-I'd like to think this is generally helpful for making decisions everywhere, although 
-I probably won't be using this to see how many pieces of produce I should squeeze at the market before being confident about my choice, 
+I'd like to think this is generally helpful for making decisions everywhere when prior information isn't readily available, 
+such as selecting an employer or employee.  
+It's a formal way of understanding how many options you should consider, based on your personal
+threshold for quality, and how confident you need to be in your choice.
+Although, I probably won't be using this to see how many pieces of produce I should squeeze at the market before being confident about my choice, 
 unless I need to limit myself to 1-2 MPFS (minutes per fruit selection).
