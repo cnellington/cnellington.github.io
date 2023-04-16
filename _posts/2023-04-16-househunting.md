@@ -8,7 +8,7 @@ categories: personal
 ---
 ### Analysis Paralysis in the Housing Market
 For the past week, I've been consumed by the highly involved and coordinated dance of apartment hunting.
-When you enter this dance, you're doe-eyed and excited to find their cinderella or prince charming.
+When you enter this dance, you're doe-eyed and excited to find your cinderella or prince charming.
 You switch partners a few times, testing the waters and considering your options.
 Do I prefer the one with central AC or the backyard? Certainly not the one by the train tracks. 
 You'll leave some suitors disappointed, stepping on a few toes, but feeling like options are in excess.
