@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>GHC 7603</p>
+    <p>GHC 7405</p>
     <p>Gates Hillman Complex, 4902 Forbes Ave</p>
     <p>Pittsburgh, PA 15213</p>
 
