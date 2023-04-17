@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hesitation Devastation and a Framework for Making High-value Decisions Without Hating Yourself
+title:  Hesitation Devastation and a Mathematical Framework for Making High-value Decisions Without Hating Yourself
 date:   2023-04-16 10:00:00
 description: House hunting, recruiting, and picking the right fruit at the grocery store
 tags: life math statistics
@@ -50,16 +50,18 @@ To make the right choice with a very limited number of options, you need to figu
 how the options you've seen compare to the rest of the market you haven't seen.
 The spirit is being able to commit after determining when you've seen an option that's "good enough" for you and 
 is likely to compare favorably against the rest of the unseen options.
+Suppose every option has an overall quality, $$X$$, where the quality of an option is something you determine based on 
+attributes you care about.
+For an apartment, the quality might be based on a tradeoff between price, sqft, amenities, and location.
 
 *Skip ahead to the table if you want to see the framework without the math*
 
-Formally, we'll say every option has a quality $$X$$, where the quality is something you determine based on 
-attributes you care about.
-For an apartment, the quality might be based on a tradeoff between price, sqft, amenities, and location.
-We'll assume that the quality for your market (the options you would consider) is normally distributed,
-where most options are average, and much better or much worse options are rarer.
+The quality of options in your market is a random variable, and every time you see an option you're
+drawing an independent sample from the distribution of the market.
+For follow-up, a normal distribution probably makes sense where most options are average quality, and much better or much worse options are rarer,
+but for this example we don't need to make any assumption about how the market is distributed.
 
-$$ X \sim N(0, \sigma^2) $$
+$$ X \sim P(X) $$
 
 To make a choice, we'd like to know with confidence at least $$1 - \delta$$ when we've seen an option 
 with higher quality than $$\epsilon$$ percentage of the market.
@@ -67,7 +69,7 @@ with higher quality than $$\epsilon$$ percentage of the market.
 $$P(max(X_1, ..., X_n) > Z_{\epsilon}) > 1 - \delta$$
 
 Where $$Z_{\epsilon}$$ is the quality value that is higher than $$\epsilon$$ percent of all $$X$$
-(the z-score for our normal distribution),
+(i.e. the z-score or inverse CDF for our distribution),
 and we'll choose how many candidate options $$n$$ we should consider before meeting the quality
 and confidence criteria.
 To get the same answer, as can figure out how likely it is that none of our options meet a quality threshold.
@@ -81,9 +83,6 @@ $$\Pi_{i=1}^n \epsilon \leq \delta$$
 $$\epsilon^n \leq \delta$$
 
 $$n > log_{\epsilon}(\delta)$$
-
-Where the union factorizes because each observation is independent (one apartment quality doesn't
-affect another).
 
 
 Now we have a nice closed-form answer for how many options we should consider before committing!
