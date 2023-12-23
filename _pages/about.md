@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Ph.D. Student</strong> @ <a href='https://sailing-lab.github.io/'>SAILING Lab</a> in <a href='http://www.compbio.cmu.edu/'>CMU-Pitt Computational Biology</a>, advised by <a href='https://www.cs.cmu.edu/~epxing/'>Eric P. Xing</a> <br> <strong>Previously:</strong> <a href='https://www.ipd.uw.edu/'>UW IPD</a> / <a href='https://www.indeed.com/'>Indeed</a> / <a href='http://klavinslab.org/'>Klavins Lab</a> / <a href='https://www.amazon.com/'>Amazon</a>
+subtitle: <strong>Ph.D. Student</strong> @ <a href='https://sailing-lab.github.io/'>SAILING Lab</a> in <a href='http://www.compbio.cmu.edu/'>CMU-Pitt Computational Biology</a>, advised by <a href='https://www.cs.cmu.edu/~epxing/'>Eric P. Xing</a> <br> <strong>Previously:</strong> <a href='https://www.genesistherapeutics.ai/'>Genesis Therapeutics</a> / <a href='https://www.ipd.uw.edu/'>UW IPD</a> / <a href='https://www.indeed.com/'>Indeed</a> / <a href='http://klavinslab.org/'>Klavins Lab</a> / <a href='https://www.amazon.com/'>Amazon</a>
 
 profile:
   align: right
@@ -17,12 +17,11 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Check out my research on [contextualized.ml](https://github.com/cnellington/contextualized), a statistical machine learning toolbox for estimating powerful biological models at per-patient or per-cell resolution, enabling truly personalized modeling for healthcare and precision diagnostics.
+I work on AI/ML for biology to enable automated biomarker discovery, drug repurposing, and therapeutic target identification for heterogeneous and rare diseases. 
+My research interests span foundation models, probabilistic graphical models, biological modeling, and multi-task learning. 
 
-My research interests span meta-learning, multi-task learning, graphical models, and biological modeling.
-I primarily work on adaptive and sample-efficient machine learning systems that respond to new challenges by using knowledge gathered across many different environments.
-I'm particularly interested in using these tools to study heterogeneous diseases, like cancer and COVID-19, where disease behavior and pathological mechanisms vary from patient to patient.
-Meta-learning helps us understand how contexts like genetics and environmental factors create patient-specific disease behaviors and pathologies.
+I co-created [contextualized.ml](https://github.com/cnellington/contextualized), an sklearn-style toolbox for personalized modeling with heterogeneous observational data. 
+Contextualized Machine Learning is a novel machine learning paradigm that estimates models, functions, and distributions at sample-specific resolution, allowing per-patient or per-cell analysis of biomedical data and enabling truly personalized modeling for healthcare, precision diagnostics, and drug repurposing.
 
-I also enjoy rock climbing, guitar, learning languages, my cats Mimi and Goma, and my rats Boogie and Disco.
+I also enjoy rock climbing, running, backpacking, guitar, learning languages, and wild speculation about Spotify's recommender system.
 I've lived in Austin TX, Seattle WA, and Pittsburgh PA and I call them all home.

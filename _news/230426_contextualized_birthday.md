@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contextualized ML is one year old!
-date: 2022-10-20 11:59:00-0400
+date: 2023-04-26 11:59:00-0400
 inline: true
 ---
 

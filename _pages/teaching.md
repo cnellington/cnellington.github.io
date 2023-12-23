@@ -14,18 +14,21 @@ Lectures and Tutorials:
 - [Tutorial Series](https://www.youtube.com/watch?v=SO8J31k6QD4), [Tutorial Code](https://github.com/cnellington/bioscience-python-tutorials): Bioscience Python Tutorials 
 
 Current Mentees:
+- Kevin Wen, Mathematics and Computer Science BS Student, MIT
+- Aaron Alvarez, Computer Science BS Student, U. Cincinnati
+
+Past Mentees:
 - Jannik Deuschel, Machine Learning MS Student, KIT
+- Juwayni Lucman, Graduated Artificial Intelligence MS Student, MBZUAI
 - Ding Bai, Machine Learning PhD Student, MBZUAI
 - Tianjun Yao, Machine Learning PhD Student, MBZUAI
 - Alyssa Lee, Computational Biology BS Student, CMU
 - Wesley Lo, Mathematics BS Student, MIT
 
-Past Mentees:
-- Juwayni Lucman, Graduated Artificial Intelligence MS Student, MBZUAI
-
-Teaching Assistantships:
-- Introduction to Machine Learning (PhD), CMU 10-701. 
+Teaching:
+- Department-sponsored Mentor on Machine Learning Fundamentals, Fall 2022.
+- TA for Introduction to Machine Learning (PhD), CMU 10-701, Spring 2022. 
 Instructors: Maria Balkan, Henry Chai.
-- Genetics and Epigenetics of the Brain, CMU 02-319.
+- TA for Genetics and Epigenetics of the Brain, CMU 02-319, Fall 2021.
 Instructor: Andreas Pfenning
 
